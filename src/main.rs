@@ -26,7 +26,6 @@ fn main() {
     increment_decrement(10);
 } // End of main
 
-
 fn increment_decrement(num: u8) {
     print_nums(num + 1, num - 1);
 }
