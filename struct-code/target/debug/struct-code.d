@@ -1,0 +1,1 @@
+/home/suryanarayana/Documents/Projects\ Github\ Commits/Rust-Progamming/struct-code/target/debug/struct-code: /home/suryanarayana/Documents/Projects\ Github\ Commits/Rust-Progamming/struct-code/src/main.rs

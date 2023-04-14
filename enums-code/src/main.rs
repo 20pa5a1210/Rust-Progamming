@@ -4,6 +4,8 @@ fn main() {
         None,
     }
 
+    match_new();
+
     let some_number = Some(5);
     let new_number = plus_one(None);
     println!("{:?} Option New Number", new_number);
@@ -86,5 +88,17 @@ fn plus_one(x: Option<i32>) -> Option<i32> {
     match x {
         None => None,
         Some(i) => Some(i + 1),
+    }
+}
+
+fn match_new() {
+    let config_mx = Some("mactch new value");
+    match config_mx {
+        Some(max) => println!("three {}", max),
+        _ => (),
+    }
+
+    if let Some(max) = config_mx {
+        println!(" if let {}", max);
     }
 }
