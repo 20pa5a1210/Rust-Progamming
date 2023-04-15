@@ -35,3 +35,17 @@ mod tests {
         assert_eq!(add_sum(1, 2), 3);
     }
 }
+#[cfg(test1)]
+mod tests{
+    use super::*;
+    #[test1]
+    fn test_array_sum(){
+        let sum = array_sum(&[1,2,3,4,5]);
+        println!("sum1 = {}",sum);
+        assert_eq!(sum,15);
+        let sum1 = array_sum(&[1,2,3,4,5,6,7,8,9,10]);
+        println!("sum1 = {}",sum1);
+        assert_eq!(sum1,55);
+        assert_eq!(add_sum(1,2),3);
+    }
+}
