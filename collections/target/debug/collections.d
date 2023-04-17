@@ -1,0 +1,1 @@
+/home/suryanarayana/Documents/Projects\ Github\ Commits/Rust-Progamming/collections/target/debug/collections: /home/suryanarayana/Documents/Projects\ Github\ Commits/Rust-Progamming/collections/src/main.rs
