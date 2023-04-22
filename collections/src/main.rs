@@ -48,4 +48,8 @@ fn main() {
 
     println!("{}", row[0].value());
     println!("{}", row[1].value());
+    {
+        let v = vec![100, 32, 57];
+    }
+    
 }
