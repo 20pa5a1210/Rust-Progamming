@@ -1,5 +1,6 @@
 fn main() {
     enum Option<T> {
+
         Some(T),
         None,
     }
@@ -102,3 +103,20 @@ fn match_new() {
         println!(" if let {}", max);
     }
 }
+
+fn new_fn(){
+
+    enum VarNums {
+        one,
+        two,
+        three,
+        four,
+    }
+
+    impl VarNums {
+        fn new() -> VarNums {
+            VarNums::one
+        }
+    }
+        
+    }

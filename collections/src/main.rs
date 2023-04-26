@@ -1,4 +1,7 @@
 fn main() {
+    let new = 100;
+    let v:Vec<u32> = vec![10,10];
+    
     // let v:Vec<i32> = Vec::new();
 
     let mut v = vec![1, 2, 3];
